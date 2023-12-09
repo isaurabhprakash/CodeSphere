@@ -12,6 +12,7 @@
 		678E909E2B24D8390047A402 /* print_n_to_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E909D2B24D8390047A402 /* print_n_to_1.cpp */; };
 		678E90A22B24DA950047A402 /* morris_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E90A02B24DA950047A402 /* morris_traversal.cpp */; };
 		678E90A72B24DB430047A402 /* binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E90A52B24DB430047A402 /* binary_tree.cpp */; };
+		678E90AC2B24E64F0047A402 /* sort_an_array_recursively.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E90AB2B24E64F0047A402 /* sort_an_array_recursively.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		678E90A62B24DB430047A402 /* binary_tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary_tree.hpp; sourceTree = "<group>"; };
 		678E90A92B24DFCD0047A402 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		678E90AA2B24DFD90047A402 /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		678E90AB2B24E64F0047A402 /* sort_an_array_recursively.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort_an_array_recursively.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				678E909B2B24B4DA0047A402 /* print_1_to_n.cpp */,
 				678E909D2B24D8390047A402 /* print_n_to_1.cpp */,
+				678E90AB2B24E64F0047A402 /* sort_an_array_recursively.cpp */,
 			);
 			path = recursion;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				678E908F2B24B41A0047A402 /* main.cpp in Sources */,
 				678E909E2B24D8390047A402 /* print_n_to_1.cpp in Sources */,
 				678E909C2B24B4DA0047A402 /* print_1_to_n.cpp in Sources */,
+				678E90AC2B24E64F0047A402 /* sort_an_array_recursively.cpp in Sources */,
 				678E90A72B24DB430047A402 /* binary_tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
