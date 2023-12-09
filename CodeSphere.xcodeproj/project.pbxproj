@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		678E908F2B24B41A0047A402 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E908E2B24B41A0047A402 /* main.cpp */; };
 		678E909C2B24B4DA0047A402 /* print_1_to_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E909B2B24B4DA0047A402 /* print_1_to_n.cpp */; };
+		678E909E2B24D8390047A402 /* print_n_to_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E909D2B24D8390047A402 /* print_n_to_1.cpp */; };
+		678E90A22B24DA950047A402 /* morris_traversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E90A02B24DA950047A402 /* morris_traversal.cpp */; };
+		678E90A72B24DB430047A402 /* binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 678E90A52B24DB430047A402 /* binary_tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,12 @@
 		678E908B2B24B41A0047A402 /* CodeSphere */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeSphere; sourceTree = BUILT_PRODUCTS_DIR; };
 		678E908E2B24B41A0047A402 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		678E909B2B24B4DA0047A402 /* print_1_to_n.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print_1_to_n.cpp; sourceTree = "<group>"; };
+		678E909D2B24D8390047A402 /* print_n_to_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print_n_to_1.cpp; sourceTree = "<group>"; };
+		678E90A02B24DA950047A402 /* morris_traversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = morris_traversal.cpp; sourceTree = "<group>"; };
+		678E90A52B24DB430047A402 /* binary_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binary_tree.cpp; sourceTree = "<group>"; };
+		678E90A62B24DB430047A402 /* binary_tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary_tree.hpp; sourceTree = "<group>"; };
+		678E90A92B24DFCD0047A402 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		678E90AA2B24DFD90047A402 /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +68,7 @@
 		678E908D2B24B41A0047A402 /* CodeSphere */ = {
 			isa = PBXGroup;
 			children = (
+				678E90A82B24DF860047A402 /* include */,
 				678E90962B24B4710047A402 /* algorithms */,
 				678E90952B24B4510047A402 /* data_structures */,
 				678E908E2B24B41A0047A402 /* main.cpp */,
@@ -69,6 +79,7 @@
 		678E90952B24B4510047A402 /* data_structures */ = {
 			isa = PBXGroup;
 			children = (
+				678E90A32B24DB2C0047A402 /* tree */,
 			);
 			path = data_structures;
 			sourceTree = "<group>";
@@ -76,6 +87,7 @@
 		678E90962B24B4710047A402 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				678E909F2B24DA790047A402 /* tree */,
 				678E90972B24B47D0047A402 /* recursion */,
 			);
 			path = algorithms;
@@ -85,8 +97,43 @@
 			isa = PBXGroup;
 			children = (
 				678E909B2B24B4DA0047A402 /* print_1_to_n.cpp */,
+				678E909D2B24D8390047A402 /* print_n_to_1.cpp */,
 			);
 			path = recursion;
+			sourceTree = "<group>";
+		};
+		678E909F2B24DA790047A402 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				678E90A02B24DA950047A402 /* morris_traversal.cpp */,
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
+		678E90A32B24DB2C0047A402 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				678E90A42B24DB310047A402 /* binary tree */,
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
+		678E90A42B24DB310047A402 /* binary tree */ = {
+			isa = PBXGroup;
+			children = (
+				678E90A52B24DB430047A402 /* binary_tree.cpp */,
+				678E90A62B24DB430047A402 /* binary_tree.hpp */,
+			);
+			path = "binary tree";
+			sourceTree = "<group>";
+		};
+		678E90A82B24DF860047A402 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				678E90A92B24DFCD0047A402 /* main.h */,
+				678E90AA2B24DFD90047A402 /* functions.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678E90A22B24DA950047A402 /* morris_traversal.cpp in Sources */,
 				678E908F2B24B41A0047A402 /* main.cpp in Sources */,
+				678E909E2B24D8390047A402 /* print_n_to_1.cpp in Sources */,
 				678E909C2B24B4DA0047A402 /* print_1_to_n.cpp in Sources */,
+				678E90A72B24DB430047A402 /* binary_tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,4 @@
-#include <iostream>
+#include "main.h"
 
 void printTillN (int n) 
 {
