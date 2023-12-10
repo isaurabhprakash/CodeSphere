@@ -2,20 +2,22 @@
 
 int main(int argc, const char * argv[]) {
             
-    std::vector<int>    arr;
+    std::stack<int> s;
     
-    arr.push_back(99);
-    arr.push_back(43);
-    arr.push_back(-12);
-    arr.push_back(901);
-    arr.push_back(-1782);
-    arr.push_back(18);
+    s.push (1);
+    s.push (2);
+    s.push (3);
+    s.push (4);
+    s.push (5);
+    s.push (6);
+
+    sortStackRecursively (s);
     
-    sortArrayRecursively (arr);
-    
-    for (auto num : arr) {
+    while (!s.empty ()) {
         
-        std::cout<<num <<" ";
+        std::cout<<s.top()<<" ";
+        s.pop();
     }
+
     return 0;
 }

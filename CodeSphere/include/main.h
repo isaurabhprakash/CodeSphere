@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<vector>
+#include<stack>
 
 #include "binary_tree.hpp"
 
