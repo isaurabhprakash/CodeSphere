@@ -6,6 +6,7 @@
 - [Print 1 to N](https://github.com/isaurabhprakash/CodeSphere/blob/master/CodeSphere/algorithms/recursion/print_1_to_n.cpp)
 - [Print N to 1](https://github.com/isaurabhprakash/CodeSphere/blob/master/CodeSphere/algorithms/recursion/print_n_to_1.cpp)
 - [Sort an Array](https://github.com/isaurabhprakash/CodeSphere/blob/master/CodeSphere/algorithms/recursion/sort_an_array_recursively.cpp)
+- [Sot a Stack](https://github.com/isaurabhprakash/CodeSphere/blob/master/CodeSphere/algorithms/recursion/sort_a_stack_recursuvely.cpp)
 
 ### Tree
 - [Morris Traversal of a Binary Tree](https://github.com/isaurabhprakash/CodeSphere/blob/master/CodeSphere/algorithms/tree/morris_traversal.cpp)
